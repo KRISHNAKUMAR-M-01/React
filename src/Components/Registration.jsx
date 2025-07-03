@@ -19,11 +19,10 @@ export default function Registration(){
                 <br />
                 <input type="checkbox" />Confirm
                 <br />
-                <button>Register</button>
+                <button>Registers</button>
 
 
             </form>    
-
 
 
         </div>
