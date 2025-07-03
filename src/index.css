@@ -1,0 +1,84 @@
+ .div1{
+  position: relative;
+  display: flex;
+  background-color:black;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+
+}
+.div2{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(white,black);
+  height: 40%;
+  width: 30%;
+  border-radius: 30px;
+}
+
+body {
+  margin: 0;
+}
+.div2 button {
+  border-radius: 30px;
+  height: 30px;
+  width: 100px;
+
+}
+.div2 input{
+  border-radius: 30px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  font-size: large;
+}
+.div2 Link{
+  font-size: x-small;
+}
+.div2 label{
+  font-size: larger;
+}
+.div3{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  display: flex;
+}
+.div3 button{
+   border-radius:30px;
+   background-image: linear-gradient(white,black);
+   color:black;
+   height: 40px;
+   width: 150px;
+
+}
+.div2:hover{
+  background-image: linear-gradient(black,white);
+  color: white;
+  box-shadow: 1.5px 1.5px 40px white;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
+.div3 button:hover{
+  background-image: linear-gradient(black,white);
+  box-shadow: 1px 1px 20px white;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+   color: white;
+}
+.div1 button:hover{
+  background-image: linear-gradient(black,white);
+  box-shadow: 1.5px 1.5px 40px white;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
+.div31{
+  color:black ;
+}
+.link1{
+  color: black;
+}
