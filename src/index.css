@@ -65,10 +65,9 @@ body {
 }
 .div3 button:hover{
   background-image: linear-gradient(black,white);
-  box-shadow: 1px 1px 20px white;
+  box-shadow: 1px 1px 20px black;
   transform: scale(1.2);
   transition: all 1s ease-out;
-   color: white;
 }
 .div1 button:hover{
   background-image: linear-gradient(black,white);
@@ -82,6 +81,7 @@ body {
 .link1{
   color: black;
 }
+/* registration.css */
 .reg1{
   display: flex;
   position: relative;
@@ -103,6 +103,11 @@ body {
   width: 30%;
   border-radius: 30px;
 }
+.reg2 button {
+  border-radius: 30px;
+  height: 50px;
+  width: 150px;
+}
 .reg2 input{
   border-radius: 10px;
   height: 40px;
@@ -110,23 +115,11 @@ body {
   text-align: center;
   font-size: large;
 }
-.reg2 label{
-  font-size: larger;
-}
-.reg2 button {
-  border-radius: 30px;
-  height: 50px;
-  width: 150px;
-}
 .reg2 Link{
   font-size: larger;
 }
-.reg2:hover{
-  background-image: linear-gradient(black,white);
-  color: white;
-  box-shadow: 1.5px 1.5px 40px white;
-  transform: scale(1.2);
-  transition: all 1s ease-out;
+.reg2 label{
+  font-size: larger;
 }
 .reg3{
   position: absolute;
@@ -141,5 +134,30 @@ body {
    height: 40px;
    width: 150px;
 }
-
-
+.reg2:hover{
+  background-image: linear-gradient(black,white);
+  color: white;
+  box-shadow: 1.5px 1.5px 40px white;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
+ 
+.reg3 button:hover{
+  background-image: linear-gradient(black,white);
+  box-shadow: 1px 1px 20px black;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+   color: white;
+}
+.reg2 button:hover{
+  background-image: linear-gradient(black,white);
+  box-shadow: 1.5px 1.5px 40px white;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
+.reg31{
+  color:white;
+}
+.link2{
+  color: black;
+}
