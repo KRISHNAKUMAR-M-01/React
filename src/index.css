@@ -82,3 +82,64 @@ body {
 .link1{
   color: black;
 }
+.reg1{
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(to left,#0000,#434343);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+
+}
+.reg2{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(white,black);
+  height: 75%;
+  width: 30%;
+  border-radius: 30px;
+}
+.reg2 input{
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  font-size: large;
+}
+.reg2 label{
+  font-size: larger;
+}
+.reg2 button {
+  border-radius: 30px;
+  height: 50px;
+  width: 150px;
+}
+.reg2 Link{
+  font-size: larger;
+}
+.reg2:hover{
+  background-image: linear-gradient(black,white);
+  color: white;
+  box-shadow: 1.5px 1.5px 40px white;
+  transform: scale(1.2);
+  transition: all 1s ease-out;
+}
+.reg3{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  display: flex;
+}
+.reg3 button{
+   border-radius:30px;
+   background-image: linear-gradient(white,black);
+   color:black;
+   height: 40px;
+   width: 150px;
+}
+
+
