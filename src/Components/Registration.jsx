@@ -19,11 +19,11 @@ export default function Registration(){
                 <input type="password" placeholder="Reapeat the PassWord.." id="pw1"/>
                 <br />
                 <br />
-                <button><Link to="/" className="link2">Sign-up</Link></button>
+                <button><Link to="/Login" className="link2">Sign-up</Link></button>
                  
             </div >
             <div className='reg3'>
-                <button><Link to="/Registration" className='reg31' >Sign-up</Link></button>
+                <button><Link to="/AboutUs" className='reg31' >AboutUs</Link></button>
              </div>
 
         </div>
