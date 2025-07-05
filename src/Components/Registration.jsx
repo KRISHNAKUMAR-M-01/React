@@ -6,7 +6,7 @@ export default function Registration(){
         <div className="reg1">
             <div className="reg2"> 
                 <h1>Sign-up</h1>
-                <label htmlFor="name">Username:</label>
+                <label htmlFor="na">Username:</label>
                 <input type="text" placeholder='Enter your name..' id='na'/>
                 <br/><br />
                 <label htmlFor="em">Email:</label>
