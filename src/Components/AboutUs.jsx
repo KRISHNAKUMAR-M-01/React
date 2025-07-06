@@ -1,9 +1,10 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import img11 from "../img1.jpg";
 export default function AboutusUs(){
     return(
         <div className="ab1">
-            <img src="https://wallpapers.com/images/featured/office-virtual-background-dpl0mg1xuxsgpcvn.jpg" alt="" className="img1"/>
+            <img src={img11} alt="" className="img1"/>
             <div className="ab2"> 
               <h1>Who <br />We <br />Are.</h1>
             </div>

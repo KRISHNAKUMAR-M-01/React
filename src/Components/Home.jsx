@@ -4,6 +4,10 @@ import img1 from "../assets/MachineLearning.jpg";
 import img2 from "../assets/UIUX.jpg";
 import img3 from "../assets/Mern.jpg";
 import img4 from "../assets/Game.jpg";
+import img5 from "../img41.png";
+import img6 from "../ANGLE1.JPG";
+import img7 from "../ANGLE.JPG";
+
 import {Link} from 'react-router-dom';
 
 export default function Home(){
@@ -17,6 +21,9 @@ export default function Home(){
             </div>
             <div className="ho3"> 
             <button><Link to="/Login" className="l2">Sign-In</Link></button>
+            </div>
+            <div className="ho311">
+               <Link to="/Login" >👤</Link>
             </div>
             <div className="ho4"> 
                 <h1>Build a <br /> Better You </h1>
@@ -35,8 +42,14 @@ export default function Home(){
                 <h1>Welcome to EduSpark</h1><p>Your journey to knowledge, skills, and success begins here.</p>
                 <button><Link to="/Courses" className="l3">Explore Courses</Link></button>
            </div>
+           <div className="hero1"> 
+            <p>Enroll once and learn forever! All your courses remain accessible anytime, <br />anywhere.</p>
+           </div>
            <div className="ho9">
-            <img src="https://wallpaperbat.com/img/1813387-actress-walls-on-twitter-beautiful-face-image-sai-pallavi-hd-image-actress-pics.jpg" alt=""  className="img23"/>
+            <img src={img6} alt=""  className="img23"/>
+           </div>
+           <div className="ho9">
+            <img src={img7} alt="" className="img24"/>
            </div>
            <div className="ho10"> 
             <h3>Educator:SaiPallavi</h3>
@@ -69,6 +82,22 @@ export default function Home(){
                 <img src={img1} alt="" />
                 <img src={img} alt="" />
            </div>
+           <div className="ho20">
+            <h1>🕮</h1>
+            <h2>60+ Courses</h2>
+            <h5>Every course is carefully crafted with hands-on projects, real-world examples, and up-to-date content to prepare you for tomorrow’s jobs.</h5>
+           </div>
+           <div className="ho21">
+             <img src={img5} alt="" />
+             <h2>Expert Instructors</h2>
+             <h5>They bring clarity, mentorship, and insider tips that go beyond theory—ensuring you gain both knowledge and confidence.</h5>
+           </div>
+            <div className="ho22">
+              <h1>⏲</h1>
+               <h2>Life time access</h2>
+               <h5>Enroll once and learn forever! All your courses remain accessible anytime, anywhere.</h5>
+           </div>
+
         </div>
     
     );
