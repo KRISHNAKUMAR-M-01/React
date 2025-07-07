@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 export default function Login(){
     return(
+      <>
         <div className="div1">
+         <h1 className='div11'>Sign-In</h1>
              <div className='div2'>
                 <label htmlFor="name">Username:</label>
                 <input type="text" placeholder='Enter your name..' id='name' />
@@ -13,9 +15,9 @@ export default function Login(){
                 <br />
                 <button><Link to="/" className='div21'>Sign-in</Link> </button>
              </div>
-             <div className='div11'>
-                <h1>Sign-In</h1>
-             </div>
+              <div className='div11'>
+               <h1>Sign-In</h1>
+              </div>
              <div className='div3'>
                 <button><Link to="/Registration" className='div31' >Sign-up</Link></button>
              </div>
@@ -24,5 +26,6 @@ export default function Login(){
 
              </div>
         </div>
+        </>
     );
-}    
+}
