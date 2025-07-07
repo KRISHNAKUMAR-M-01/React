@@ -7,6 +7,7 @@ import ForgetPasssword from "./Components/ForgetPassword";
 import NotFound from "./Components/NotFound";
 import AboutUs from "./Components/AboutUs";
 import Courses from "./Components/Courses";
+import Contact from "./Components/Contact";
 import "./App.css";
 export default function App(){
   return(
@@ -16,6 +17,7 @@ export default function App(){
     <Route path="/" element={<Home/>} /> 
     <Route path="/Login" element={<Login/>} /> 
     <Route path="/Registration" element={<Registration/>} />
+     <Route path="/Contact" element={<Contact/>} />
     <Route path="/ForgetPassword" element={<ForgetPasssword/>} />
     <Route path="/AboutUs" element={<AboutUs/>} />
     <Route path="/Courses" element={<Courses/>} />
