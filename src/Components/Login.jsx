@@ -3,7 +3,7 @@ export default function Login(){
     return(
       <>
         <div className="div1">
-         <h1 className='div11'>Sign-In</h1>
+         
              <div className='div2'>
                 <label htmlFor="name">Username:</label>
                 <input type="text" placeholder='Enter your name..' id='name' />
